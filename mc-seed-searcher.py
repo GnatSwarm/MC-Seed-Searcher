@@ -88,8 +88,7 @@ class MCOps():
 #prep requirements
 def Load_Parameters():
     WindowOps.select_window("sheet")
-    SheetOps.get_targets
-()
+    SheetOps.get_targets()
 #   put targets
 # into list format for easy reference
 
@@ -130,10 +129,9 @@ def Start_Search(
                     pass
                 #
                 (x_coordinate, y_coordinate, z_coordinate) = (coordinates)
-                direct_distance = pow(x_coordinate^2+z_coordinate^2, 0.5)
+                direct_distance = pow(x_coordinate^2+z_coordinate^2, 0.5)            
                 
-                
-                
+                #TODO: write that data into the report list.
                 
         # Create new line item
         
